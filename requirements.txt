@@ -1,0 +1,11 @@
+imutils
+numpy
+argparse
+dlib
+opencv-python
+mysql-connector-python
+datetime
+pandas
+flask
+scipy
+

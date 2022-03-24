@@ -1,0 +1,20 @@
+<html>
+    <head>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+      {% if title %}
+      <title>Controle de fluxo - {{ title }}</title>
+      {% else %}
+      <title>Controle de fluxo</title>
+      {% endif %}
+    </head>
+    <body>
+        <div>
+          Gráficos: <a href="/">Página inicial |</a> 
+          <a href="/semanal">Média Semanal |</a>
+          <a href="/horario">Horario de Pico |</a>
+          <a href="/diario">Média Diária</a>
+        </div>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>
